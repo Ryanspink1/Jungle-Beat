@@ -136,22 +136,6 @@ class LinkedList
             end
     end
 
-
-
-    # def insert(position, data)
-    #     this_node = @head
-    #     tick = 1
-    #     unless tick == position
-    #   this_node = this_node.next_node
-    #     tick += 1 
-    # end
-    #     new_node = Node.new (data)
-    #     remaining_nodes = this_node.next_node
-    #     this_node.next_node = new_node
-    #     new_node.next_node = remaining_nodes 
-
-
-
     # insert, in order
     #   insert takes the input data position and word. It then sets the variable "master_node" to equal @head
     #   and starts a counter at 1. The program then goes (from the beginning) down the list of nodes until it has
